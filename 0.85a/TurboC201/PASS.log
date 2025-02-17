@@ -1,0 +1,4025 @@
+Building FreeCOM for language english
+Make is d:\tc201\make -f.
+
+Checking SUPPL library
+Building SUPPL library
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 538799 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	copy TURBOC.CFG src
+D:\FreeCOM\SOURCES\85a\suppl\TURBOC.CFG => D:\FreeCOM\SOURCES\85a\suppl\src\TURBOC.CFG
+     1 file copied
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 528668 bytes
+
+	d:\tc201\TCC -I.. -c addu.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+addu.c:
+
+	Available memory 309434
+	d:\tc201\TCC -I.. -c byte2par.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+byte2par.c:
+
+	Available memory 310160
+	d:\tc201\TCC -I.. -c cntry.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cntry.c:
+
+	Available memory 255548
+	d:\tc201\TCC -I.. -c dfndeli2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfndeli2.c:
+
+	Available memory 287232
+	d:\tc201\TCC -I.. -c dfndelim.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfndelim.c:
+
+	Available memory 287304
+	d:\tc201\TCC -I.. -c dfnexpan.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnexpan.c:
+
+	Available memory 240350
+	d:\tc201\TCC -I.. -c dfnfnam.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnfnam.c:
+
+	Available memory 272600
+	d:\tc201\TCC -I.. -c dfnfullp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnfullp.c:
+
+	Available memory 241292
+	d:\tc201\TCC -I.. -c dfnmerge.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnmerge.c:
+
+	Available memory 259558
+	d:\tc201\TCC -I.. -c dfnpath.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnpath.c:
+
+	Available memory 248450
+	d:\tc201\TCC -I.. -c dfnsplit.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnsplit.c:
+
+	Available memory 240478
+	d:\tc201\TCC -I.. -c dfnsquee.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnsquee.c:
+
+	Available memory 246894
+	d:\tc201\TCC -I.. -c dfnstat.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfnstat.c:
+
+	Available memory 266706
+	d:\tc201\TCC -I.. -c dfntruen.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfntruen.c:
+
+	Available memory 244468
+	d:\tc201\TCC -I.. -c dmemcmpf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dmemcmpf.c:
+
+	Available memory 263988
+	d:\tc201\TCC -I.. -c dosalloc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dosalloc.c:
+
+	Available memory 268530
+	d:\tc201\TCC -I.. -c dosfree.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dosfree.c:
+
+	Available memory 283398
+	d:\tc201\TCC -I.. -c dossize.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dossize.c:
+
+	Available memory 279996
+	d:\tc201\TCC -I.. -c dstrchar.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dstrchar.c:
+
+	Available memory 260192
+	d:\tc201\TCC -I.. -c dstrfupr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dstrfupr.c:
+
+	Available memory 285358
+	d:\tc201\TCC -I.. -c dstrleft.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dstrleft.c:
+
+	Available memory 258708
+	d:\tc201\TCC -I.. -c dstrrepl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dstrrepl.c:
+
+	Available memory 265694
+	d:\tc201\TCC -I.. -c dstrtrim.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dstrtrim.c:
+
+	Available memory 260942
+	d:\tc201\TCC -I.. -c dstrupr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dstrupr.c:
+
+	Available memory 265326
+	d:\tc201\TCC -I.. -c enoallc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+enoallc.c:
+
+	Available memory 272922
+	d:\tc201\TCC -I.. -c enoreal.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+enoreal.c:
+
+	Available memory 272902
+	d:\tc201\TCC -I.. -c enosdup.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+enosdup.c:
+
+	Available memory 268454
+	d:\tc201\TCC -I.. -c enosetos.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+enosetos.c:
+
+	Available memory 273292
+	d:\tc201\TCC -I.. -c env_chg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_chg.c:
+
+	Available memory 272194
+	d:\tc201\TCC -I.. -c env_del.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_del.c:
+
+	Available memory 271784
+	d:\tc201\TCC -I.. -c env_dvar.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_dvar.c:
+
+	Available memory 267694
+	d:\tc201\TCC -I.. -c env_find.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_find.c:
+
+	Available memory 271376
+	d:\tc201\TCC -I.. -c env_fora.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_fora.c:
+
+	Available memory 274930
+	d:\tc201\TCC -I.. -c env_free.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_free.c:
+
+	Available memory 271224
+	d:\tc201\TCC -I.. -c env_insv.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_insv.c:
+
+	Available memory 268604
+	d:\tc201\TCC -I.. -c env_len.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_len.c:
+
+	Available memory 272404
+	d:\tc201\TCC -I.. -c env_mtch.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_mtch.c:
+
+	Available memory 245956
+	d:\tc201\TCC -I.. -c env_new.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_new.c:
+
+	Available memory 273812
+	d:\tc201\TCC -I.. -c env_nost.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_nost.c:
+
+	Available memory 268122
+	d:\tc201\TCC -I.. -c env_ovrw.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_ovrw.c:
+
+	Available memory 264068
+	d:\tc201\TCC -I.. -c env_repl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_repl.c:
+
+	Available memory 256760
+	d:\tc201\TCC -I.. -c env_rlsg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_rlsg.c:
+
+	Available memory 278280
+	d:\tc201\TCC -I.. -c env_scnt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_scnt.c:
+
+	Available memory 274334
+	d:\tc201\TCC -I.. -c env_size.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_size.c:
+
+	Available memory 266124
+	d:\tc201\TCC -I.. -c env_strg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_strg.c:
+
+	Available memory 274042
+	d:\tc201\TCC -I.. -c env_sub.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_sub.c:
+
+	Available memory 274712
+	d:\tc201\TCC -I.. -c env_var1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_var1.c:
+
+	Available memory 303662
+	d:\tc201\TCC -I.. -c env_var2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_var2.c:
+
+	Available memory 303662
+	d:\tc201\TCC -I.. -c ffmaxbuf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ffmaxbuf.c:
+
+	Available memory 273848
+	d:\tc201\TCC -I.. -c fgetpos.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fgetpos.c:
+
+	Available memory 339636
+	d:\tc201\TCC -I.. -c fmemchr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fmemchr.c:
+
+	Available memory 306196
+	d:\tc201\TCC -I.. -c fmemcmp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fmemcmp.c:
+
+	Available memory 306176
+	d:\tc201\TCC -I.. -c fmemcpy.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fmemcpy.c:
+
+	Available memory 306304
+	d:\tc201\TCC -I.. -c fmemove.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fmemove.c:
+
+	Available memory 304628
+	d:\tc201\TCC -I.. -c fnorm.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fnorm.c:
+
+	Available memory 309436
+	d:\tc201\TCC -I.. -c fputmc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fputmc.c:
+
+	Available memory 280130
+	d:\tc201\TCC -I.. -c fstrcpy.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fstrcpy.c:
+
+	Available memory 306082
+	d:\tc201\TCC -I.. -c fstrdup.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fstrdup.c:
+
+	Available memory 280236
+	d:\tc201\TCC -I.. -c fstrlen.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fstrlen.c:
+
+	Available memory 291238
+	d:\tc201\TCC -I.. -c _getdcwd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+_getdcwd.c:
+
+	Available memory 269738
+	d:\tc201\TCC -I.. -c mcb_1st.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mcb_1st.c:
+
+	Available memory 283262
+	d:\tc201\TCC -I.. -c mcb_is.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mcb_is.c:
+
+	Available memory 283940
+	d:\tc201\TCC -I.. -c mcb_leng.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mcb_leng.c:
+
+	Available memory 283074
+	d:\tc201\TCC -I.. -c mcb_nxt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mcb_nxt.c:
+
+	Available memory 283222
+	d:\tc201\TCC -I.. -c mcb_walk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mcb_walk.c:
+
+	Available memory 277130
+	d:\tc201\TCC -I.. -c stpcat.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+stpcat.c:
+
+	Available memory 278902
+	d:\tc201\TCC -I.. -c stpcpy.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+stpcpy.c:
+
+	Available memory 339636
+	d:\tc201\TCC -I.. -c toupperx.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+toupperx.c:
+
+	Available memory 258132
+	d:\tc201\TCC -I.. -c filefind.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+filefind.c:
+
+	Available memory 339634
+	d:\tc201\TCC -I.. -c invokedo.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+invokedo.c:
+
+	Available memory 283234
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP intr.asm
+	d:\tc201\TCC -I.. -c app_ievx.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_ievx.c:
+
+	Available memory 268732
+	d:\tc201\TCC -I.. -c app_ini_.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_ini_.c:
+
+	Available memory 251982
+	d:\tc201\TCC -I.. -c app_name.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_name.c:
+
+	Available memory 276488
+	d:\tc201\TCC -I.. -c app_namx.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_namx.c:
+
+	Available memory 276814
+	d:\tc201\TCC -I.. -c app_vars.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_vars.c:
+
+	Available memory 276984
+	d:\tc201\TCC -I.. -c dbgf_chg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_chg.c:
+
+	Available memory 245646
+	d:\tc201\TCC -I.. -c dbgf_cl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_cl.c:
+
+	Available memory 264740
+	d:\tc201\TCC -I.. -c dbgf_cle.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_cle.c:
+
+	Available memory 270322
+	d:\tc201\TCC -I.. -c dbgf_clg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_clg.c:
+
+	Available memory 274686
+	d:\tc201\TCC -I.. -c dbgf_dl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_dl.c:
+
+	Available memory 275332
+	d:\tc201\TCC -I.. -c dbgf_dpl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_dpl.c:
+
+	Available memory 275326
+	d:\tc201\TCC -I.. -c dbgf_et.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_et.c:
+
+	Available memory 263162
+	d:\tc201\TCC -I.. -c dbgf_ext.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_ext.c:
+
+	Available memory 270890
+	d:\tc201\TCC -I.. -c dbgf_fl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_fl.c:
+
+	Available memory 275152
+	d:\tc201\TCC -I.. -c dbgf_flg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_flg.c:
+
+	Available memory 271822
+	d:\tc201\TCC -I.. -c dbgf_ien.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_ien.c:
+
+	Available memory 269874
+	d:\tc201\TCC -I.. -c dbgf_lgh.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_lgh.c:
+
+	Available memory 219498
+	d:\tc201\TCC -I.. -c dbgf_lgi.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_lgi.c:
+
+	Available memory 264336
+	d:\tc201\TCC -I.. -c dbgf_lgt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_lgt.c:
+
+	Available memory 264060
+	d:\tc201\TCC -I.. -c dbgf_lk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_lk.c:
+
+	Available memory 274186
+	d:\tc201\TCC -I.. -c dbgf_log.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_log.c:
+
+	Available memory 270328
+	d:\tc201\TCC -I.. -c dbgf_lv.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_lv.c:
+
+	Available memory 268862
+	d:\tc201\TCC -I.. -c dbgf_mfi.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_mfi.c:
+
+	Available memory 249892
+	d:\tc201\TCC -I.. -c dbgf_mi.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_mi.c:
+
+	Available memory 270236
+	d:\tc201\TCC -I.. -c dbgf_mki.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_mki.c:
+
+	Available memory 250944
+	d:\tc201\TCC -I.. -c dbgf_ml.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_ml.c:
+
+	Available memory 275090
+	d:\tc201\TCC -I.. -c dbgf_pop.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_pop.c:
+
+	Available memory 273236
+	d:\tc201\TCC -I.. -c dbgf_prt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_prt.c:
+
+	Available memory 268966
+	d:\tc201\TCC -I.. -c dbgf_psh.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_psh.c:
+
+	Available memory 253212
+	d:\tc201\TCC -I.. -c dbgf_var.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgf_var.c:
+
+	Available memory 273540
+	d:\tc201\TCC -I.. -c dbgm_chk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgm_chk.c:
+
+	Available memory 274488
+	d:\tc201\TCC -I.. -c dbgv_s0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s0.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s2.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s3.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s4.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s5.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s6.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s7.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s8.c:
+
+	Available memory 275608
+	d:\tc201\TCC -I.. -c dbgv_s10.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s10.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s13.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s13.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s14.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s14.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s15.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s15.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s17.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s17.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s19.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s19.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s20.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s20.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s22.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s22.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c dbgv_s25.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbgv_s25.c:
+
+	Available memory 275606
+	d:\tc201\TCC -I.. -c eeopen.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+eeopen.c:
+
+	Available memory 274908
+	d:\tc201\TCC -I.. -c eestrcon.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+eestrcon.c:
+
+	Available memory 256412
+	d:\tc201\TCC -I.. -c env_sdup.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+env_sdup.c:
+
+	Available memory 267714
+	d:\tc201\TCC -I.. -c erfc_00f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+erfc_00f.c:
+
+	Available memory 285550
+	d:\tc201\TCC -I.. -c erfc_015.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+erfc_015.c:
+
+	Available memory 285550
+	d:\tc201\TCC -I.. -c gm_res.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+gm_res.c:
+
+	Available memory 265000
+	d:\tc201\TCC -I.. -c gm_dup.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+gm_dup.c:
+
+	Available memory 257820
+	d:\tc201\TCC -I.. -c gm_chgm.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+gm_chgm.c:
+
+	Available memory 257900
+	d:\tc201\TCC -I.. -c gm_gtmem.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+gm_gtmem.c:
+
+	Available memory 257984
+	d:\tc201\TCC -I.. -c nlstime.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+nlstime.c:
+
+	Available memory 279186
+	d:\tc201\TCC -I.. -c strnum.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+strnum.c:
+
+	Available memory 272058
+	d:\tc201\TCC -I.. -c s_skipws.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+s_skipws.c:
+
+	Available memory 280484
+	d:\tc201\TCC -I.. -c s_skipwd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+s_skipwd.c:
+
+	Available memory 280410
+	copy ..\..\scripts\echolib.bat .
+D:\FreeCOM\SOURCES\85a\scripts\echolib.bat => D:\FreeCOM\SOURCES\85a\suppl\src\echolib.bat
+     1 file copied
+	..\..\scripts\rmfiles objlist.txt
+	echolib objlist.txt addu.obj byte2par.obj cntry.obj dfndeli2.obj dfndelim.obj dfnexpan.obj dfnfnam.obj
+	echolib objlist.txt dfnfullp.obj dfnmerge.obj dfnpath.obj dfnsplit.obj dfnsquee.obj dfnstat.obj
+	echolib objlist.txt dfntruen.obj dmemcmpf.obj dosalloc.obj dosfree.obj dossize.obj dstrchar.obj
+	echolib objlist.txt dstrfupr.obj dstrleft.obj dstrrepl.obj dstrtrim.obj dstrupr.obj enoallc.obj
+	echolib objlist.txt enoreal.obj enosdup.obj enosetos.obj env_chg.obj env_del.obj env_dvar.obj env_find.obj
+	echolib objlist.txt env_fora.obj env_free.obj env_insv.obj env_len.obj env_mtch.obj env_new.obj
+	echolib objlist.txt env_nost.obj env_ovrw.obj env_repl.obj env_rlsg.obj env_scnt.obj env_size.obj
+	echolib objlist.txt env_strg.obj env_sub.obj env_var1.obj env_var2.obj ffmaxbuf.obj fgetpos.obj
+	echolib objlist.txt fmemchr.obj fmemcmp.obj fmemcpy.obj fmemove.obj fnorm.obj fputmc.obj fstrcpy.obj
+	echolib objlist.txt fstrdup.obj fstrlen.obj _getdcwd.obj mcb_1st.obj mcb_is.obj mcb_leng.obj mcb_nxt.obj
+	echolib objlist.txt mcb_walk.obj stpcat.obj stpcpy.obj toupperx.obj filefind.obj invokedo.obj intr.obj
+	echolib objlist.txt app_ievx.obj app_ini_.obj app_name.obj app_namx.obj app_vars.obj dbgf_chg.obj
+	echolib objlist.txt dbgf_cl.obj dbgf_cle.obj dbgf_clg.obj dbgf_dl.obj dbgf_dpl.obj dbgf_et.obj
+	echolib objlist.txt dbgf_ext.obj dbgf_fl.obj dbgf_flg.obj dbgf_ien.obj dbgf_lgh.obj dbgf_lgi.obj
+	echolib objlist.txt dbgf_lgt.obj dbgf_lk.obj dbgf_log.obj dbgf_lv.obj dbgf_mfi.obj dbgf_mi.obj
+	echolib objlist.txt dbgf_mki.obj dbgf_ml.obj dbgf_pop.obj dbgf_prt.obj dbgf_psh.obj dbgf_var.obj
+	echolib objlist.txt dbgm_chk.obj dbgv_s0.obj dbgv_s2.obj dbgv_s3.obj dbgv_s4.obj dbgv_s5.obj
+	echolib objlist.txt dbgv_s6.obj dbgv_s7.obj dbgv_s8.obj dbgv_s10.obj dbgv_s13.obj dbgv_s14.obj
+	echolib objlist.txt dbgv_s15.obj dbgv_s17.obj dbgv_s19.obj dbgv_s20.obj dbgv_s22.obj dbgv_s25.obj
+	echolib objlist.txt eeopen.obj eestrcon.obj env_sdup.obj erfc_00f.obj erfc_015.obj gm_res.obj 
+	echolib objlist.txt gm_dup.obj gm_chgm.obj gm_gtmem.obj nlstime.obj strnum.obj s_skipws.obj s_skipwd.obj
+	..\..\scripts\rmfiles ..\suppl_s.lib
+	d:\tc201\Tlib /C ..\suppl_s.lib @objlist.txt ,..\suppl_s.lst
++addu.obj +byte2par.obj +cntry.obj +dfndeli2.obj +dfndelim.obj +dfnexpan.obj +dfnfnam.obj &
++dfnfullp.obj +dfnmerge.obj +dfnpath.obj +dfnsplit.obj +dfnsquee.obj +dfnstat.obj &
++dfntruen.obj +dmemcmpf.obj +dosalloc.obj +dosfree.obj +dossize.obj +dstrchar.obj &
++dstrfupr.obj +dstrleft.obj +dstrrepl.obj +dstrtrim.obj +dstrupr.obj +enoallc.obj &
++enoreal.obj +enosdup.obj +enosetos.obj +env_chg.obj +env_del.obj +env_dvar.obj +env_find.obj &
++env_fora.obj +env_free.obj +env_insv.obj +env_len.obj +env_mtch.obj +env_new.obj &
++env_nost.obj +env_ovrw.obj +env_repl.obj +env_rlsg.obj +env_scnt.obj +env_size.obj &
++env_strg.obj +env_sub.obj +env_var1.obj +env_var2.obj +ffmaxbuf.obj +fgetpos.obj &
++fmemchr.obj +fmemcmp.obj +fmemcpy.obj +fmemove.obj +fnorm.obj +fputmc.obj +fstrcpy.obj &
++fstrdup.obj +fstrlen.obj +_getdcwd.obj +mcb_1st.obj +mcb_is.obj +mcb_leng.obj +mcb_nxt.obj &
++mcb_walk.obj +stpcat.obj +stpcpy.obj +toupperx.obj +filefind.obj +invokedo.obj +intr.obj &
++app_ievx.obj +app_ini_.obj +app_name.obj +app_namx.obj +app_vars.obj +dbgf_chg.obj &
++dbgf_cl.obj +dbgf_cle.obj +dbgf_clg.obj +dbgf_dl.obj +dbgf_dpl.obj +dbgf_et.obj &
++dbgf_ext.obj +dbgf_fl.obj +dbgf_flg.obj +dbgf_ien.obj +dbgf_lgh.obj +dbgf_lgi.obj &
++dbgf_lgt.obj +dbgf_lk.obj +dbgf_log.obj +dbgf_lv.obj +dbgf_mfi.obj +dbgf_mi.obj &
++dbgf_mki.obj +dbgf_ml.obj +dbgf_pop.obj +dbgf_prt.obj +dbgf_psh.obj +dbgf_var.obj &
++dbgm_chk.obj +dbgv_s0.obj +dbgv_s2.obj +dbgv_s3.obj +dbgv_s4.obj +dbgv_s5.obj &
++dbgv_s6.obj +dbgv_s7.obj +dbgv_s8.obj +dbgv_s10.obj +dbgv_s13.obj +dbgv_s14.obj &
++dbgv_s15.obj +dbgv_s17.obj +dbgv_s19.obj +dbgv_s20.obj +dbgv_s22.obj +dbgv_s25.obj &
++eeopen.obj +eestrcon.obj +env_sdup.obj +erfc_00f.obj +erfc_015.obj +gm_res.obj &
++gm_dup.obj +gm_chgm.obj +gm_gtmem.obj +nlstime.obj +strnum.obj +s_skipws.obj +s_skipwd.obj &
+
+Making basic utilities for build process
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 538682 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tc201\TCC mktools.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mktools.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 328178
+	d:\tc201\TCC mkctxt.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mkctxt.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 293688
+	d:\tc201\TCC chunk.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chunk.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 324950
+	d:\tc201\TCC mkinfres.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mkinfres.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 294814
+
+Making STRINGS resource
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 538154 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms -mc
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tc201\TCC fixstrs.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fixstrs.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 253400
+	fixstrs.exe --lib english
+FIXSTRS: loading file DEFAULT.lng
+FIXSTRS: loading file english
+FIXSTRS: building STRINGS resource
+FIXSTRS: building STRINGS library source files
+	copy strings.h ..
+D:\FreeCOM\SOURCES\85a\strings\strings.h => D:\FreeCOM\SOURCES\85a\strings.h
+     1 file copied
+	d:\tc201\TCC critstrs.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+critstrs.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 296602
+	critstrs.exe english
+CRITSTRS: load file DEFAULT.err
+CRITSTRS: load file english
+CRITSTRS: Running validation check
+CRITSTRS: Dumping CRITER strings resource
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 521822 bytes
+
+	d:\tc201\TCC -c str0000.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0000.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0001.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0001.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0002.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0002.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0003.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0003.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0004.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0004.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0005.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0005.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0006.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0006.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0007.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0007.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0008.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0008.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0009.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0009.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str000a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str000a.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str000b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str000b.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str000c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str000c.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str000d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str000d.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str000e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str000e.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str000f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str000f.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0010.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0010.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0011.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0011.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0012.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0012.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0013.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0013.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0014.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0014.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str0015.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0015.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0016.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0016.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0017.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0017.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0018.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0018.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0019.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0019.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str001a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str001a.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str001b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str001b.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str001c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str001c.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str001d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str001d.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str001e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str001e.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str001f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str001f.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str0020.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0020.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0021.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0021.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0022.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0022.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0023.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0023.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0024.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0024.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0025.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0025.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0026.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0026.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0027.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0027.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0028.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0028.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0029.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0029.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str002a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str002a.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str002b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str002b.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str002c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str002c.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str002d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str002d.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str002e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str002e.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str002f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str002f.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0030.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0030.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0031.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0031.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0032.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0032.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0033.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0033.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0034.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0034.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0035.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0035.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0036.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0036.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0037.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0037.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0038.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0038.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0039.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0039.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str003a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str003a.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str003b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str003b.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str003c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str003c.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str003d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str003d.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str003e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str003e.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str003f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str003f.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0040.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0040.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0041.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0041.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0042.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0042.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str0043.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0043.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str0044.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0044.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0045.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0045.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0046.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0046.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0047.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0047.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0048.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0048.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0049.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0049.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str004a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str004a.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str004b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str004b.c:
+
+	Available memory 327840
+	d:\tc201\TCC -c str004c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str004c.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str004d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str004d.c:
+
+	Available memory 327840
+	d:\tc201\TCC -c str004e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str004e.c:
+
+	Available memory 327838
+	d:\tc201\TCC -c str004f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str004f.c:
+
+	Available memory 327842
+	d:\tc201\TCC -c str0050.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0050.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0051.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0051.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0052.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0052.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0053.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0053.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0054.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0054.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0055.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0055.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0056.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0056.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0057.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0057.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0058.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0058.c:
+
+	Available memory 327832
+	d:\tc201\TCC -c str0059.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0059.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str005a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str005a.c:
+
+	Available memory 326812
+	d:\tc201\TCC -c str005b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str005b.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str005c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str005c.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str005d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str005d.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str005e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str005e.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str005f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str005f.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str0060.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0060.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0061.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0061.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str0062.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0062.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0063.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0063.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0064.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0064.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0065.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0065.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0066.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0066.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0067.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0067.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0068.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0068.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str0069.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0069.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str006a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str006a.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str006b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str006b.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str006c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str006c.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str006d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str006d.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str006e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str006e.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str006f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str006f.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str0070.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0070.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0071.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0071.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str0072.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0072.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str0073.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0073.c:
+
+	Available memory 328876
+	d:\tc201\TCC -c str0074.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0074.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0075.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0075.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0076.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0076.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0077.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0077.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0078.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0078.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str0079.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0079.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str007a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str007a.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str007b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str007b.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str007c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str007c.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str007d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str007d.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str007e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str007e.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str007f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str007f.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0080.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0080.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0081.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0081.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str0082.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0082.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0083.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0083.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str0084.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0084.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0085.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0085.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0086.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0086.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str0087.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0087.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str0088.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0088.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0089.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0089.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str008a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str008a.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str008b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str008b.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str008c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str008c.c:
+
+	Available memory 328876
+	d:\tc201\TCC -c str008d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str008d.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str008e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str008e.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str008f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str008f.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str0090.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0090.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str0091.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0091.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0092.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0092.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0093.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0093.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str0094.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0094.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0095.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0095.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str0096.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0096.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0097.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0097.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str0098.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0098.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str0099.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str0099.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str009a.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str009a.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str009b.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str009b.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str009c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str009c.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str009d.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str009d.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str009e.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str009e.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str009f.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str009f.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str00a0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a0.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str00a1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a1.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str00a2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a2.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str00a3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a3.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str00a4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a4.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str00a5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a5.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str00a6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a6.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00a7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a7.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str00a8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a8.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str00a9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00a9.c:
+
+	Available memory 328860
+	d:\tc201\TCC -c str00aa.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00aa.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str00ab.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ab.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00ac.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ac.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str00ad.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ad.c:
+
+	Available memory 328862
+	d:\tc201\TCC -c str00ae.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ae.c:
+
+	Available memory 324772
+	d:\tc201\TCC -c str00af.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00af.c:
+
+	Available memory 324766
+	d:\tc201\TCC -c str00b0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b0.c:
+
+	Available memory 326818
+	d:\tc201\TCC -c str00b1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b1.c:
+
+	Available memory 326822
+	d:\tc201\TCC -c str00b2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b2.c:
+
+	Available memory 327838
+	d:\tc201\TCC -c str00b3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b3.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00b4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b4.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00b5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b5.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00b6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b6.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00b7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b7.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00b8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b8.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00b9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00b9.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00ba.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ba.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00bb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00bb.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00bc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00bc.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00bd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00bd.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00be.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00be.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str00bf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00bf.c:
+
+	Available memory 326822
+	d:\tc201\TCC -c str00c0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c0.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00c1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c1.c:
+
+	Available memory 327846
+	d:\tc201\TCC -c str00c2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c2.c:
+
+	Available memory 325800
+	d:\tc201\TCC -c str00c3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c3.c:
+
+	Available memory 324778
+	d:\tc201\TCC -c str00c4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c4.c:
+
+	Available memory 324776
+	d:\tc201\TCC -c str00c5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c5.c:
+
+	Available memory 327848
+	d:\tc201\TCC -c str00c6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c6.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00c7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c7.c:
+
+	Available memory 316568
+	d:\tc201\TCC -c str00c8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c8.c:
+
+	Available memory 320680
+	d:\tc201\TCC -c str00c9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00c9.c:
+
+	Available memory 327848
+	d:\tc201\TCC -c str00ca.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ca.c:
+
+	Available memory 326824
+	d:\tc201\TCC -c str00cb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00cb.c:
+
+	Available memory 325800
+	d:\tc201\TCC -c str00cc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00cc.c:
+
+	Available memory 314524
+	d:\tc201\TCC -c str00cd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00cd.c:
+
+	Available memory 325798
+	d:\tc201\TCC -c str00ce.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ce.c:
+
+	Available memory 313488
+	d:\tc201\TCC -c str00cf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00cf.c:
+
+	Available memory 327848
+	d:\tc201\TCC -c str00d0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d0.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00d1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d1.c:
+
+	Available memory 323752
+	d:\tc201\TCC -c str00d2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d2.c:
+
+	Available memory 326824
+	d:\tc201\TCC -c str00d3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d3.c:
+
+	Available memory 327844
+	d:\tc201\TCC -c str00d4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d4.c:
+
+	Available memory 321706
+	d:\tc201\TCC -c str00d5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d5.c:
+
+	Available memory 326822
+	d:\tc201\TCC -c str00d6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d6.c:
+
+	Available memory 321706
+	d:\tc201\TCC -c str00d7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d7.c:
+
+	Available memory 326820
+	d:\tc201\TCC -c str00d8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d8.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str00d9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00d9.c:
+
+	Available memory 326824
+	d:\tc201\TCC -c str00da.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00da.c:
+
+	Available memory 327846
+	d:\tc201\TCC -c str00db.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00db.c:
+
+	Available memory 322726
+	d:\tc201\TCC -c str00dc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00dc.c:
+
+	Available memory 327846
+	d:\tc201\TCC -c str00dd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00dd.c:
+
+	Available memory 327848
+	d:\tc201\TCC -c str00de.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00de.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00df.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00df.c:
+
+	Available memory 328874
+	d:\tc201\TCC -c str00e0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e0.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00e1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e1.c:
+
+	Available memory 325800
+	d:\tc201\TCC -c str00e2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e2.c:
+
+	Available memory 321704
+	d:\tc201\TCC -c str00e3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e3.c:
+
+	Available memory 327846
+	d:\tc201\TCC -c str00e4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e4.c:
+
+	Available memory 326824
+	d:\tc201\TCC -c str00e5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e5.c:
+
+	Available memory 328868
+	d:\tc201\TCC -c str00e6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e6.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00e7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e7.c:
+
+	Available memory 325800
+	d:\tc201\TCC -c str00e8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e8.c:
+
+	Available memory 327846
+	d:\tc201\TCC -c str00e9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00e9.c:
+
+	Available memory 324772
+	d:\tc201\TCC -c str00ea.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ea.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00eb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00eb.c:
+
+	Available memory 326820
+	d:\tc201\TCC -c str00ec.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ec.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00ed.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ed.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00ee.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ee.c:
+
+	Available memory 328856
+	d:\tc201\TCC -c str00ef.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00ef.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00f0.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f0.c:
+
+	Available memory 328858
+	d:\tc201\TCC -c str00f1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f1.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00f2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f2.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00f3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f3.c:
+
+	Available memory 328864
+	d:\tc201\TCC -c str00f4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f4.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00f5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f5.c:
+
+	Available memory 326814
+	d:\tc201\TCC -c str00f6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f6.c:
+
+	Available memory 328872
+	d:\tc201\TCC -c str00f7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f7.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00f8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f8.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00f9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00f9.c:
+
+	Available memory 328866
+	d:\tc201\TCC -c str00fa.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00fa.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00fb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00fb.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00fc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00fc.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00fd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00fd.c:
+
+	Available memory 328870
+	d:\tc201\TCC -c str00fe.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+str00fe.c:
+
+	Available memory 328866
+	echo Making STRINGS library
+Making STRINGS library
+	..\..\scripts\rmfiles strings.lib
+	d:\tc201\Tlib /C strings.lib @strings.rsp , strings.lst
++str0000.obj &
++str0001.obj &
++str0002.obj &
++str0003.obj &
++str0004.obj &
++str0005.obj &
++str0006.obj &
++str0007.obj &
++str0008.obj &
++str0009.obj &
++str000a.obj &
++str000b.obj &
++str000c.obj &
++str000d.obj &
++str000e.obj &
++str000f.obj &
++str0010.obj &
++str0011.obj &
++str0012.obj &
++str0013.obj &
++str0014.obj &
++str0015.obj &
++str0016.obj &
++str0017.obj &
++str0018.obj &
++str0019.obj &
++str001a.obj &
++str001b.obj &
++str001c.obj &
++str001d.obj &
++str001e.obj &
++str001f.obj &
++str0020.obj &
++str0021.obj &
++str0022.obj &
++str0023.obj &
++str0024.obj &
++str0025.obj &
++str0026.obj &
++str0027.obj &
++str0028.obj &
++str0029.obj &
++str002a.obj &
++str002b.obj &
++str002c.obj &
++str002d.obj &
++str002e.obj &
++str002f.obj &
++str0030.obj &
++str0031.obj &
++str0032.obj &
++str0033.obj &
++str0034.obj &
++str0035.obj &
++str0036.obj &
++str0037.obj &
++str0038.obj &
++str0039.obj &
++str003a.obj &
++str003b.obj &
++str003c.obj &
++str003d.obj &
++str003e.obj &
++str003f.obj &
++str0040.obj &
++str0041.obj &
++str0042.obj &
++str0043.obj &
++str0044.obj &
++str0045.obj &
++str0046.obj &
++str0047.obj &
++str0048.obj &
++str0049.obj &
++str004a.obj &
++str004b.obj &
++str004c.obj &
++str004d.obj &
++str004e.obj &
++str004f.obj &
++str0050.obj &
++str0051.obj &
++str0052.obj &
++str0053.obj &
++str0054.obj &
++str0055.obj &
++str0056.obj &
++str0057.obj &
++str0058.obj &
++str0059.obj &
++str005a.obj &
++str005b.obj &
++str005c.obj &
++str005d.obj &
++str005e.obj &
++str005f.obj &
++str0060.obj &
++str0061.obj &
++str0062.obj &
++str0063.obj &
++str0064.obj &
++str0065.obj &
++str0066.obj &
++str0067.obj &
++str0068.obj &
++str0069.obj &
++str006a.obj &
++str006b.obj &
++str006c.obj &
++str006d.obj &
++str006e.obj &
++str006f.obj &
++str0070.obj &
++str0071.obj &
++str0072.obj &
++str0073.obj &
++str0074.obj &
++str0075.obj &
++str0076.obj &
++str0077.obj &
++str0078.obj &
++str0079.obj &
++str007a.obj &
++str007b.obj &
++str007c.obj &
++str007d.obj &
++str007e.obj &
++str007f.obj &
++str0080.obj &
++str0081.obj &
++str0082.obj &
++str0083.obj &
++str0084.obj &
++str0085.obj &
++str0086.obj &
++str0087.obj &
++str0088.obj &
++str0089.obj &
++str008a.obj &
++str008b.obj &
++str008c.obj &
++str008d.obj &
++str008e.obj &
++str008f.obj &
++str0090.obj &
++str0091.obj &
++str0092.obj &
++str0093.obj &
++str0094.obj &
++str0095.obj &
++str0096.obj &
++str0097.obj &
++str0098.obj &
++str0099.obj &
++str009a.obj &
++str009b.obj &
++str009c.obj &
++str009d.obj &
++str009e.obj &
++str009f.obj &
++str00a0.obj &
++str00a1.obj &
++str00a2.obj &
++str00a3.obj &
++str00a4.obj &
++str00a5.obj &
++str00a6.obj &
++str00a7.obj &
++str00a8.obj &
++str00a9.obj &
++str00aa.obj &
++str00ab.obj &
++str00ac.obj &
++str00ad.obj &
++str00ae.obj &
++str00af.obj &
++str00b0.obj &
++str00b1.obj &
++str00b2.obj &
++str00b3.obj &
++str00b4.obj &
++str00b5.obj &
++str00b6.obj &
++str00b7.obj &
++str00b8.obj &
++str00b9.obj &
++str00ba.obj &
++str00bb.obj &
++str00bc.obj &
++str00bd.obj &
++str00be.obj &
++str00bf.obj &
++str00c0.obj &
++str00c1.obj &
++str00c2.obj &
++str00c3.obj &
++str00c4.obj &
++str00c5.obj &
++str00c6.obj &
++str00c7.obj &
++str00c8.obj &
++str00c9.obj &
++str00ca.obj &
++str00cb.obj &
++str00cc.obj &
++str00cd.obj &
++str00ce.obj &
++str00cf.obj &
++str00d0.obj &
++str00d1.obj &
++str00d2.obj &
++str00d3.obj &
++str00d4.obj &
++str00d5.obj &
++str00d6.obj &
++str00d7.obj &
++str00d8.obj &
++str00d9.obj &
++str00da.obj &
++str00db.obj &
++str00dc.obj &
++str00dd.obj &
++str00de.obj &
++str00df.obj &
++str00e0.obj &
++str00e1.obj &
++str00e2.obj &
++str00e3.obj &
++str00e4.obj &
++str00e5.obj &
++str00e6.obj &
++str00e7.obj &
++str00e8.obj &
++str00e9.obj &
++str00ea.obj &
++str00eb.obj &
++str00ec.obj &
++str00ed.obj &
++str00ee.obj &
++str00ef.obj &
++str00f0.obj &
++str00f1.obj &
++str00f2.obj &
++str00f3.obj &
++str00f4.obj &
++str00f5.obj &
++str00f6.obj &
++str00f7.obj &
++str00f8.obj &
++str00f9.obj &
++str00fa.obj &
++str00fb.obj &
++str00fc.obj &
++str00fd.obj &
++str00fe.obj 
+	copy strings.lib ..
+D:\FreeCOM\SOURCES\85a\strings\strings\STRINGS.LIB => D:\FreeCOM\SOURCES\85a\strings\STRINGS.LIB
+     1 file copied
+	copy strings.lst ..
+D:\FreeCOM\SOURCES\85a\strings\strings\STRINGS.LST => D:\FreeCOM\SOURCES\85a\strings\STRINGS.LST
+     1 file copied
+
+Making CRITER resource
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 538184 bytes
+
+	..\utils\mkctxt.exe context
+	copy context.h_c ..
+D:\FreeCOM\SOURCES\85a\criter\context.h_c => D:\FreeCOM\SOURCES\85a\context.h_c
+     1 file copied
+	copy context.inc ..
+D:\FreeCOM\SOURCES\85a\criter\context.inc => D:\FreeCOM\SOURCES\85a\context.inc
+     1 file copied
+	d:\tools\nasm  -f bin -o criter criter.asm
+	d:\tools\nasm  -DAUTO_FAIL -f bin -o criter1 criter.asm
+
+Making misc library
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 521849 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tc201\TCC -c absfile.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+absfile.c:
+
+	Available memory 234924
+	d:\tc201\TCC -c almemblk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+almemblk.c:
+
+	Available memory 252692
+	d:\tc201\TCC -c alprmblk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+alprmblk.c:
+
+	Available memory 252634
+	d:\tc201\TCC -c alsysblk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+alsysblk.c:
+
+	Available memory 269222
+	d:\tc201\TCC -c app_get.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_get.c:
+
+	Available memory 268260
+	d:\tc201\TCC -c app_set.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+app_set.c:
+
+	Available memory 269476
+	d:\tc201\TCC -c beep_l.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+beep_l.c:
+
+	Available memory 269548
+	d:\tc201\TCC -c beep_n.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+beep_n.c:
+
+	Available memory 269548
+	d:\tc201\TCC -c brk_get.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+brk_get.c:
+
+	Available memory 275846
+	d:\tc201\TCC -c brk_set.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+brk_set.c:
+
+	Available memory 275846
+	d:\tc201\TCC -c cbreak.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cbreak.c:
+
+	Available memory 214418
+	d:\tc201\TCC -c cbs.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cbs.c:
+
+	Available memory 265034
+	d:\tc201\TCC -c cd_dir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cd_dir.c:
+
+	Available memory 208236
+	d:\tc201\TCC -c cgetch.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cgetch.c:
+
+	Available memory 256574
+	d:\tc201\TCC -c cgettime.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cgettime.c:
+
+	Available memory 255662
+	d:\tc201\TCC -c chgctxt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chgctxt.c:
+
+	Available memory 220356
+	d:\tc201\TCC -c chgdrv.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chgdrv.c:
+
+	Available memory 242992
+	d:\tc201\TCC -c chgenv.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chgenv.c:
+
+	Available memory 224478
+	d:\tc201\TCC -c chgenvc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chgenvc.c:
+
+	Available memory 251328
+	d:\tc201\TCC -c chgenvr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chgenvr.c:
+
+	Available memory 235206
+	d:\tc201\TCC -c clrline.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+clrline.c:
+
+	Available memory 259330
+	d:\tc201\TCC -c cmdinput.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cmdinput.c:
+
+	Available memory 208198
+	d:\tc201\TCC -c comfile.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+comfile.c:
+
+	Available memory 251218
+	d:\tc201\TCC -c compfile.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+compfile.c:
+
+	Available memory 254554
+	d:\tc201\TCC -c critend.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+critend.c:
+
+	Available memory 237366
+	d:\tc201\TCC -c critrchk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+critrchk.c:
+
+	Available memory 233886
+	d:\tc201\TCC -c ctxt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt.c:
+
+	Available memory 296774
+	d:\tc201\TCC -c ctxt_adr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_adr.c:
+
+	Available memory 270842
+	d:\tc201\TCC -c ctxt_as.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_as.c:
+
+	Available memory 252570
+	d:\tc201\TCC -c ctxt_chg.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_chg.c:
+
+	Available memory 233370
+	d:\tc201\TCC -c ctxt_clr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_clr.c:
+
+	Available memory 258006
+	d:\tc201\TCC -c ctxt_get.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_get.c:
+
+	Available memory 249138
+	d:\tc201\TCC -c ctxt_inf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_inf.c:
+
+	Available memory 296766
+	d:\tc201\TCC -c ctxt_mk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_mk.c:
+
+	Available memory 243762
+	d:\tc201\TCC -c ctxt_mkb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_mkb.c:
+
+	Available memory 231856
+	d:\tc201\TCC -c ctxt_mkn.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_mkn.c:
+
+	Available memory 280806
+	d:\tc201\TCC -c ctxt_pop.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_pop.c:
+
+	Available memory 246548
+	d:\tc201\TCC -c ctxt_psh.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_psh.c:
+
+	Available memory 250196
+	d:\tc201\TCC -c ctxt_rnu.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_rnu.c:
+
+	Available memory 238360
+	d:\tc201\TCC -c ctxt_set.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_set.c:
+
+	Available memory 295060
+	d:\tc201\TCC -c ctxt_ss.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_ss.c:
+
+	Available memory 267986
+	d:\tc201\TCC -c ctxt_vw.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctxt_vw.c:
+
+	Available memory 240510
+	d:\tc201\TCC -c curdatel.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+curdatel.c:
+
+	Available memory 215810
+	d:\tc201\TCC -c curtime.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+curtime.c:
+
+	Available memory 239494
+	d:\tc201\TCC -c cwd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cwd.c:
+
+	Available memory 234668
+	d:\tc201\TCC -c dateget.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dateget.c:
+
+	Available memory 285390
+	d:\tc201\TCC -c dateset.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dateset.c:
+
+	Available memory 284258
+	d:\tc201\TCC -c dbg_c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbg_c.c:
+
+	Available memory 333508
+	d:\tc201\TCC -c dbg_mem.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbg_mem.c:
+
+	Available memory 333506
+	d:\tc201\TCC -c dbg_prnt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbg_prnt.c:
+
+	Available memory 333504
+	d:\tc201\TCC -c dbg_s.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbg_s.c:
+
+	Available memory 333508
+	d:\tc201\TCC -c dbg_sn.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dbg_sn.c:
+
+	Available memory 333506
+	d:\tc201\TCC -c devopen.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+devopen.c:
+
+	Available memory 263582
+	d:\tc201\TCC -c dfn_err.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dfn_err.c:
+
+	Available memory 257344
+	d:\tc201\TCC -c dispcnt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dispcnt.c:
+
+	Available memory 269144
+	d:\tc201\TCC -c dispexit.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dispexit.c:
+
+	Available memory 255782
+	d:\tc201\TCC -c drvnum.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+drvnum.c:
+
+	Available memory 267866
+	d:\tc201\TCC -c efct_001.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+efct_001.c:
+
+	Available memory 235656
+	d:\tc201\TCC -c exec.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+exec.c:
+
+	Available memory 234422
+	d:\tc201\TCC -c exec1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+exec1.c:
+
+	Available memory 244186
+	d:\tc201\TCC -c farread.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+farread.c:
+
+	Available memory 262428
+	d:\tc201\TCC -c filecomp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+filecomp.c:
+
+	Available memory 211486
+	d:\tc201\TCC -c fdattr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fdattr.c:
+
+	Available memory 300118
+	d:\tc201\TCC -c fdevopen.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fdevopen.c:
+
+	Available memory 309930
+	d:\tc201\TCC -c fdsattr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fdsattr.c:
+
+	Available memory 300078
+	d:\tc201\TCC -c fillcomp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fillcomp.c:
+
+	Available memory 234138
+	d:\tc201\TCC -c find.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+find.c:
+
+	Available memory 290612
+	d:\tc201\TCC -c freep.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+freep.c:
+
+	Available memory 304380
+	d:\tc201\TCC -c frsysblk.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+frsysblk.c:
+
+	Available memory 263018
+	d:\tc201\TCC -c fstpcpy.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fstpcpy.c:
+
+	Available memory 269500
+	d:\tc201\TCC -c gallstr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+gallstr.c:
+
+	Available memory 269488
+	d:\tc201\TCC -c get1mcb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+get1mcb.c:
+
+	Available memory 269574
+	d:\tc201\TCC -c getenv.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+getenv.c:
+
+	Available memory 262726
+	d:\tc201\TCC -c goxy.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+goxy.c:
+
+	Available memory 269558
+	d:\tc201\TCC -c grabfcom.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+grabfcom.c:
+
+	Available memory 224726
+	d:\tc201\TCC -c gumblink.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+gumblink.c:
+
+	Available memory 269466
+	d:\tc201\TCC -c hdlrctxt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+hdlrctxt.c:
+
+	Available memory 241342
+	d:\tc201\TCC -c hist_get.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+hist_get.c:
+
+	Available memory 259400
+	d:\tc201\TCC -c hist_set.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+hist_set.c:
+
+	Available memory 271234
+	d:\tc201\TCC -c inputdos.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+inputdos.c:
+
+	Available memory 248408
+	d:\tc201\TCC -c is_empty.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+is_empty.c:
+
+	Available memory 273958
+	d:\tc201\TCC -c is_fnamc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+is_fnamc.c:
+
+	Available memory 271326
+	d:\tc201\TCC -c is_fnstr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+is_fnstr.c:
+
+	Available memory 269232
+	d:\tc201\TCC -c is_pchr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+is_pchr.c:
+
+	Available memory 328504
+	d:\tc201\TCC -c isadev.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+isadev.c:
+
+	Available memory 316912
+	d:\tc201\TCC -c keyprsd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+keyprsd.c:
+
+	Available memory 269462
+	d:\tc201\TCC -c kswap_c.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+kswap_c.c:
+
+	Available memory 333506
+	d:\tc201\TCC -c lastdget.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+lastdget.c:
+
+	Available memory 254706
+	d:\tc201\TCC -c lastdset.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+lastdset.c:
+
+	Available memory 254846
+	d:\tc201\TCC -c leadopt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+leadopt.c:
+
+	Available memory 240728
+	d:\tc201\TCC -c lfnfuncs.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+lfnfuncs.c:
+
+	Available memory 225834
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP lowexec.asm
+	d:\tc201\TCC -c ltrimcl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ltrimcl.c:
+
+	Available memory 296704
+	d:\tc201\TCC -c ltrimsp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ltrimsp.c:
+
+	Available memory 267940
+	d:\tc201\TCC -c lwr1wd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+lwr1wd.c:
+
+	Available memory 255412
+	d:\tc201\TCC -c match.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+match.c:
+
+	Available memory 258772
+	d:\tc201\TCC -c messages.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+messages.c:
+
+	Available memory 213896
+	d:\tc201\TCC -c mk_rddir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mk_rddir.c:
+
+	Available memory 229652
+	d:\tc201\TCC -c mktmpfil.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mktmpfil.c:
+
+	Available memory 221960
+	d:\tc201\TCC -c msg_dflt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_dflt.c:
+
+	Available memory 244670
+	d:\tc201\TCC -c msg_dps.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_dps.c:
+
+	Available memory 269016
+	d:\tc201\TCC -c msg_fstr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_fstr.c:
+
+	Available memory 245036
+	d:\tc201\TCC -c msg_get.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_get.c:
+
+	Available memory 265050
+	d:\tc201\TCC -c msg_gpt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_gpt.c:
+
+	Available memory 265056
+	d:\tc201\TCC -c msg_mkey.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_mkey.c:
+
+	Available memory 265130
+	d:\tc201\TCC -c msg_prmp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+msg_prmp.c:
+
+	Available memory 263460
+	d:\tc201\TCC -c mux_ae.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mux_ae.c:
+
+	Available memory 234186
+	d:\tc201\TCC -c myperror.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+myperror.c:
+
+	Available memory 251384
+	d:\tc201\TCC -c nls.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+nls.c:
+
+	Available memory 284096
+	d:\tc201\TCC -c nls_date.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+nls_date.c:
+
+	Available memory 276774
+	d:\tc201\TCC -c nls_time.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+nls_time.c:
+
+	Available memory 236494
+	d:\tc201\TCC -c num_fmt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+num_fmt.c:
+
+	Available memory 255052
+	d:\tc201\TCC -c onoff.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+onoff.c:
+
+	Available memory 246196
+	d:\tc201\TCC -c openf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+openf.c:
+
+	Available memory 255882
+	d:\tc201\TCC -c optsb.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+optsb.c:
+
+	Available memory 239654
+	d:\tc201\TCC -c optsi.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+optsi.c:
+
+	Available memory 240774
+	d:\tc201\TCC -c optss.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+optss.c:
+
+	Available memory 239176
+	d:\tc201\TCC -c parsenum.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+parsenum.c:
+
+	Available memory 260712
+	d:\tc201\TCC -c pr_date.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+pr_date.c:
+
+	Available memory 233886
+	copy ..\scripts\echolib.bat .
+D:\FreeCOM\SOURCES\85a\scripts\echolib.bat => D:\FreeCOM\SOURCES\85a\lib\echolib.bat
+     1 file copied
+	d:\tc201\TCC -c pr_prmpt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+pr_prmpt.c:
+
+	Available memory 255908
+	d:\tc201\TCC -c pr_time.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+pr_time.c:
+
+	Available memory 236372
+	d:\tc201\TCC -c prf.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+prf.c:
+
+	Available memory 243708
+	d:\tc201\TCC -c prprompt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+prprompt.c:
+
+	Available memory 207336
+	d:\tc201\TCC -c readcmd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+readcmd.c:
+
+	Available memory 263266
+	d:\tc201\TCC -c realnum.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+realnum.c:
+
+	Available memory 263692
+	d:\tc201\TCC -c res.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+res.c:
+Warning res.c 78: Call to function 'free' with no prototype in function enumResources
+
+	Available memory 260714
+	d:\tc201\TCC -c res_r.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+res_r.c:
+
+	Available memory 250232
+	d:\tc201\TCC -c res_vald.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+res_vald.c:
+
+	Available memory 245950
+	d:\tc201\TCC -c res_w.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+res_w.c:
+
+	Available memory 307370
+	d:\tc201\TCC -c resfile.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+resfile.c:
+
+	Available memory 240400
+	d:\tc201\TCC -c rmtmpfil.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+rmtmpfil.c:
+
+	Available memory 269414
+	d:\tc201\TCC -c rtrimcl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+rtrimcl.c:
+
+	Available memory 296692
+	d:\tc201\TCC -c rtrimsp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+rtrimsp.c:
+
+	Available memory 263636
+	d:\tc201\TCC -c salloc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+salloc.c:
+
+	Available memory 269598
+	d:\tc201\TCC -c samefile.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+samefile.c:
+
+	Available memory 254580
+	d:\tc201\TCC -c scancmd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+scancmd.c:
+
+	Available memory 241640
+	d:\tc201\TCC -c scanopt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+scanopt.c:
+
+	Available memory 229500
+	d:\tc201\TCC -c session.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+session.c:
+
+	Available memory 221542
+	d:\tc201\TCC -c showcmds.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+showcmds.c:
+
+	Available memory 242918
+	d:\tc201\TCC -c skqwd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+skqwd.c:
+
+	Available memory 243734
+	d:\tc201\TCC -c spfnam.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+spfnam.c:
+
+	Available memory 269458
+	d:\tc201\TCC -c split.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+split.c:
+
+	Available memory 302848
+	d:\tc201\TCC -c sumblink.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+sumblink.c:
+
+	Available memory 269594
+	d:\tc201\TCC -c timeget.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+timeget.c:
+
+	Available memory 299598
+	d:\tc201\TCC -c timeset.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+timeset.c:
+
+	Available memory 299490
+	d:\tc201\TCC -c tmpnam.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+tmpnam.c:
+
+	Available memory 241200
+	d:\tc201\TCC -c trimcl.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+trimcl.c:
+
+	Available memory 304698
+	d:\tc201\TCC -c trimsp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+trimsp.c:
+
+	Available memory 269552
+	d:\tc201\TCC -c truepath.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+truepath.c:
+
+	Available memory 231746
+	d:\tc201\TCC -c truncate.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+truncate.c:
+
+	Available memory 266308
+	d:\tc201\TCC -c txtlend.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+txtlend.c:
+
+	Available memory 269198
+	d:\tc201\TCC -c unquote.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+unquote.c:
+
+	Available memory 296474
+	d:\tc201\TCC -c vcgetch.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+vcgetch.c:
+
+	Available memory 265882
+	d:\tc201\TCC -c vcgetstr.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+vcgetstr.c:
+
+	Available memory 241108
+	d:\tc201\TCC -c where.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+where.c:
+
+	Available memory 238126
+	d:\tc201\TCC -c delay.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+delay.c:
+
+	Available memory 333508
+	d:\tc201\TCC -c err1.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err1.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err2.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err3.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err3.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err4.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err4.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err5.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err5.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err6.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err6.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err7.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err7.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err8.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err8.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err9.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err9.c:
+
+	Available memory 249322
+	d:\tc201\TCC -c err10.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err10.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err11.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err11.c:
+
+	Available memory 249212
+	d:\tc201\TCC -c err12.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err12.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err13.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err13.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err14.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err14.c:
+
+	Available memory 249300
+	d:\tc201\TCC -c err15.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err15.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err16.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err16.c:
+
+	Available memory 249300
+	d:\tc201\TCC -c err17.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err17.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err18.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err18.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err19.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err19.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err20.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err20.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err21.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err21.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err22.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err22.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err23.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err23.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err24.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err24.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err25.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err25.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err26.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err26.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err27.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err27.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err28.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err28.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err29.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err29.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err30.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err30.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err31.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err31.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err32.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err32.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err33.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err33.c:
+
+	Available memory 249300
+	d:\tc201\TCC -c err34.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err34.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err35.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err35.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err36.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err36.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err37.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err37.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err38.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err38.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err39.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err39.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err40.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err40.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err41.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err41.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err42.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err42.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err43.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err43.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err44.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err44.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err45.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err45.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err46.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err46.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err47.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err47.c:
+
+	Available memory 249308
+	d:\tc201\TCC -c err48.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err48.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err49.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err49.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err50.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err50.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err51.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err51.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err52.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err52.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err53.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err53.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err54.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err54.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err55.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err55.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err56.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err56.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err57.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err57.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err58.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err58.c:
+
+	Available memory 249300
+	d:\tc201\TCC -c err59.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err59.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err60.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err60.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err61.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err61.c:
+
+	Available memory 249292
+	d:\tc201\TCC -c err62.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err62.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err63.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err63.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err64.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err64.c:
+
+	Available memory 249300
+	d:\tc201\TCC -c err65.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err65.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err66.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err66.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err67.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err67.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err68.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err68.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err69.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err69.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err70.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err70.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err71.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err71.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err72.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err72.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err73.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err73.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err74.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err74.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err75.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err75.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err76.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err76.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err77.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err77.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err78.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err78.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err79.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err79.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err80.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err80.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err81.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err81.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err82.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err82.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err83.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err83.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err84.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err84.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err85.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err85.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err86.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err86.c:
+
+	Available memory 249320
+	d:\tc201\TCC -c err87.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+err87.c:
+
+	Available memory 249320
+	..\scripts\rmfiles freecom.rsp
+	echolib freecom.rsp absfile.obj almemblk.obj alprmblk.obj alsysblk.obj app_get.obj app_set.obj beep_l.obj beep_n.obj
+	echolib freecom.rsp brk_get.obj brk_set.obj cbreak.obj cbs.obj cd_dir.obj cgetch.obj cgettime.obj chgctxt.obj
+	echolib freecom.rsp chgdrv.obj chgenv.obj chgenvc.obj chgenvr.obj clrline.obj cmdinput.obj comfile.obj compfile.obj
+	echolib freecom.rsp critend.obj critrchk.obj ctxt.obj ctxt_adr.obj ctxt_as.obj ctxt_chg.obj ctxt_clr.obj ctxt_get.obj
+	echolib freecom.rsp ctxt_inf.obj ctxt_mk.obj ctxt_mkb.obj ctxt_mkn.obj ctxt_pop.obj ctxt_psh.obj ctxt_rnu.obj ctxt_set.obj
+	echolib freecom.rsp ctxt_ss.obj ctxt_vw.obj curdatel.obj curtime.obj cwd.obj dateget.obj dateset.obj dbg_c.obj
+	echolib freecom.rsp dbg_mem.obj dbg_prnt.obj dbg_s.obj dbg_sn.obj devopen.obj dfn_err.obj dispcnt.obj dispexit.obj
+	echolib freecom.rsp drvnum.obj efct_001.obj exec.obj exec1.obj farread.obj filecomp.obj fdattr.obj
+	echolib freecom.rsp fdevopen.obj fdsattr.obj fillcomp.obj find.obj freep.obj frsysblk.obj fstpcpy.obj gallstr.obj
+	echolib freecom.rsp get1mcb.obj getenv.obj goxy.obj grabfcom.obj gumblink.obj hdlrctxt.obj hist_get.obj hist_set.obj
+	echolib freecom.rsp inputdos.obj is_empty.obj is_fnamc.obj is_fnstr.obj is_pchr.obj isadev.obj keyprsd.obj kswap_c.obj
+	echolib freecom.rsp lastdget.obj lastdset.obj leadopt.obj lfnfuncs.obj lowexec.obj ltrimcl.obj ltrimsp.obj lwr1wd.obj
+	echolib freecom.rsp match.obj messages.obj mk_rddir.obj mktmpfil.obj msg_dflt.obj msg_dps.obj msg_fstr.obj msg_get.obj
+	echolib freecom.rsp msg_gpt.obj msg_mkey.obj msg_prmp.obj mux_ae.obj myperror.obj nls.obj nls_date.obj nls_time.obj
+	echolib freecom.rsp num_fmt.obj onoff.obj openf.obj optsb.obj optsi.obj optss.obj parsenum.obj pr_date.obj
+	echolib freecom.rsp pr_prmpt.obj pr_time.obj prf.obj prprompt.obj readcmd.obj realnum.obj res.obj res_r.obj res_vald.obj
+	echolib freecom.rsp res_w.obj resfile.obj rmtmpfil.obj rtrimcl.obj rtrimsp.obj salloc.obj samefile.obj scancmd.obj
+	echolib freecom.rsp scanopt.obj session.obj showcmds.obj skqwd.obj spfnam.obj split.obj sumblink.obj
+	echolib freecom.rsp timeget.obj timeset.obj tmpnam.obj trimcl.obj trimsp.obj truepath.obj truncate.obj txtlend.obj
+	echolib freecom.rsp unquote.obj vcgetch.obj vcgetstr.obj where.obj delay.obj
+	echolib freecom.rsp err1.obj err2.obj err3.obj err4.obj err5.obj err6.obj err7.obj err8.obj err9.obj err10.obj
+	echolib freecom.rsp err11.obj err12.obj err13.obj err14.obj err15.obj err16.obj err17.obj err18.obj err19.obj err20.obj
+	echolib freecom.rsp err21.obj err22.obj err23.obj err24.obj err25.obj err26.obj err27.obj err28.obj err29.obj err30.obj
+	echolib freecom.rsp err31.obj err32.obj err33.obj err34.obj err35.obj err36.obj err37.obj err38.obj err39.obj err40.obj
+	echolib freecom.rsp err41.obj err42.obj err43.obj err44.obj err45.obj err46.obj err47.obj err48.obj err49.obj err50.obj
+	echolib freecom.rsp err51.obj err52.obj err53.obj err54.obj err55.obj err56.obj err57.obj err58.obj err59.obj err60.obj
+	echolib freecom.rsp err61.obj err62.obj err63.obj err64.obj err65.obj err66.obj err67.obj err68.obj err69.obj err70.obj
+	echolib freecom.rsp err71.obj err72.obj err73.obj err74.obj err75.obj err76.obj err77.obj err78.obj err79.obj err80.obj
+	echolib freecom.rsp err81.obj err82.obj err83.obj err84.obj err85.obj err86.obj err87.obj
+	..\scripts\rmfiles freecom.lib
+	d:\tc201\Tlib /C freecom.lib @freecom.rsp , freecom.lst
++absfile.obj +almemblk.obj +alprmblk.obj +alsysblk.obj +app_get.obj +app_set.obj +beep_l.obj +beep_n.obj &
++brk_get.obj +brk_set.obj +cbreak.obj +cbs.obj +cd_dir.obj +cgetch.obj +cgettime.obj +chgctxt.obj &
++chgdrv.obj +chgenv.obj +chgenvc.obj +chgenvr.obj +clrline.obj +cmdinput.obj +comfile.obj +compfile.obj &
++critend.obj +critrchk.obj +ctxt.obj +ctxt_adr.obj +ctxt_as.obj +ctxt_chg.obj +ctxt_clr.obj +ctxt_get.obj &
++ctxt_inf.obj +ctxt_mk.obj +ctxt_mkb.obj +ctxt_mkn.obj +ctxt_pop.obj +ctxt_psh.obj +ctxt_rnu.obj +ctxt_set.obj &
++ctxt_ss.obj +ctxt_vw.obj +curdatel.obj +curtime.obj +cwd.obj +dateget.obj +dateset.obj +dbg_c.obj &
++dbg_mem.obj +dbg_prnt.obj +dbg_s.obj +dbg_sn.obj +devopen.obj +dfn_err.obj +dispcnt.obj +dispexit.obj &
++drvnum.obj +efct_001.obj +exec.obj +exec1.obj +farread.obj +filecomp.obj +fdattr.obj &
++fdevopen.obj +fdsattr.obj +fillcomp.obj +find.obj +freep.obj +frsysblk.obj +fstpcpy.obj +gallstr.obj &
++get1mcb.obj +getenv.obj +goxy.obj +grabfcom.obj +gumblink.obj +hdlrctxt.obj +hist_get.obj +hist_set.obj &
++inputdos.obj +is_empty.obj +is_fnamc.obj +is_fnstr.obj +is_pchr.obj +isadev.obj +keyprsd.obj +kswap_c.obj &
++lastdget.obj +lastdset.obj +leadopt.obj +lfnfuncs.obj +lowexec.obj +ltrimcl.obj +ltrimsp.obj +lwr1wd.obj &
++match.obj +messages.obj +mk_rddir.obj +mktmpfil.obj +msg_dflt.obj +msg_dps.obj +msg_fstr.obj +msg_get.obj &
++msg_gpt.obj +msg_mkey.obj +msg_prmp.obj +mux_ae.obj +myperror.obj +nls.obj +nls_date.obj +nls_time.obj &
++num_fmt.obj +onoff.obj +openf.obj +optsb.obj +optsi.obj +optss.obj +parsenum.obj +pr_date.obj &
++pr_prmpt.obj +pr_time.obj +prf.obj +prprompt.obj +readcmd.obj +realnum.obj +res.obj +res_r.obj +res_vald.obj &
++res_w.obj +resfile.obj +rmtmpfil.obj +rtrimcl.obj +rtrimsp.obj +salloc.obj +samefile.obj +scancmd.obj &
++scanopt.obj +session.obj +showcmds.obj +skqwd.obj +spfnam.obj +split.obj +sumblink.obj &
++timeget.obj +timeset.obj +tmpnam.obj +trimcl.obj +trimsp.obj +truepath.obj +truncate.obj +txtlend.obj &
++unquote.obj +vcgetch.obj +vcgetstr.obj +where.obj +delay.obj &
++err1.obj +err2.obj +err3.obj +err4.obj +err5.obj +err6.obj +err7.obj +err8.obj +err9.obj +err10.obj &
++err11.obj +err12.obj +err13.obj +err14.obj +err15.obj +err16.obj +err17.obj +err18.obj +err19.obj +err20.obj &
++err21.obj +err22.obj +err23.obj +err24.obj +err25.obj +err26.obj +err27.obj +err28.obj +err29.obj +err30.obj &
++err31.obj +err32.obj +err33.obj +err34.obj +err35.obj +err36.obj +err37.obj +err38.obj +err39.obj +err40.obj &
++err41.obj +err42.obj +err43.obj +err44.obj +err45.obj +err46.obj +err47.obj +err48.obj +err49.obj +err50.obj &
++err51.obj +err52.obj +err53.obj +err54.obj +err55.obj +err56.obj +err57.obj +err58.obj +err59.obj +err60.obj &
++err61.obj +err62.obj +err63.obj +err64.obj +err65.obj +err66.obj +err67.obj +err68.obj +err69.obj +err70.obj &
++err71.obj +err72.obj +err73.obj +err74.obj +err75.obj +err76.obj +err77.obj +err78.obj +err79.obj +err80.obj &
++err81.obj +err82.obj +err83.obj +err84.obj +err85.obj +err86.obj +err87.obj &
+
+Making commands library
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 535783 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tc201\TCC -c alias.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+alias.c:
+
+	Available memory 240078
+	d:\tc201\TCC -c beep.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+beep.c:
+
+	Available memory 276586
+	d:\tc201\TCC -c break.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+break.c:
+
+	Available memory 247654
+	d:\tc201\TCC -c call.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+call.c:
+
+	Available memory 235888
+	d:\tc201\TCC -c cdd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cdd.c:
+
+	Available memory 275558
+	d:\tc201\TCC -c chcp.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chcp.c:
+
+	Available memory 228686
+	d:\tc201\TCC -c chdir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+chdir.c:
+
+	Available memory 275554
+	d:\tc201\TCC -c cls.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cls.c:
+
+	Available memory 271218
+	d:\tc201\TCC -c copy.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+copy.c:
+
+	Available memory 179448
+	d:\tc201\TCC -c ctty.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ctty.c:
+
+	Available memory 236250
+	d:\tc201\TCC -c date.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+date.c:
+
+	Available memory 224484
+	d:\tc201\TCC -c del.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+del.c:
+
+	Available memory 207208
+	d:\tc201\TCC -c dir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dir.c:
+Warning dir.c 1106: Conversion may lose significant digits in function dir_list
+
+	Available memory 168040
+	d:\tc201\TCC -c dirs.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+dirs.c:
+
+	Available memory 256954
+	d:\tc201\TCC -c doskey.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+doskey.c:
+
+	Available memory 261048
+	d:\tc201\TCC -c echo.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+echo.c:
+
+	Available memory 231160
+	d:\tc201\TCC -c exit.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+exit.c:
+
+	Available memory 276604
+	d:\tc201\TCC -c exit2.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+exit2.c:
+
+	Available memory 276578
+	d:\tc201\TCC -c fddebug.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+fddebug.c:
+
+	Available memory 237762
+	d:\tc201\TCC -c for.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+for.c:
+
+	Available memory 210296
+	d:\tc201\TCC -c goto.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+goto.c:
+
+	Available memory 222198
+	d:\tc201\TCC -c history.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+history.c:
+
+	Available memory 237842
+	d:\tc201\TCC -c if.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+if.c:
+
+	Available memory 225000
+	d:\tc201\TCC -c lfnfor.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+lfnfor.c:
+
+	Available memory 240046
+	d:\tc201\TCC -c memory.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+memory.c:
+
+	Available memory 244396
+	d:\tc201\TCC -c mkdir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+mkdir.c:
+
+	Available memory 271148
+	d:\tc201\TCC -c path.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+path.c:
+
+	Available memory 238612
+	d:\tc201\TCC -c pause.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+pause.c:
+
+	Available memory 242792
+	d:\tc201\TCC -c popd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+popd.c:
+
+	Available memory 250352
+	d:\tc201\TCC -c prompt.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+prompt.c:
+
+	Available memory 267224
+	d:\tc201\TCC -c pushd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+pushd.c:
+
+	Available memory 265602
+	d:\tc201\TCC -c rem.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+rem.c:
+
+	Available memory 276638
+	d:\tc201\TCC -c ren.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ren.c:
+
+	Available memory 217834
+	d:\tc201\TCC -c rmdir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+rmdir.c:
+
+	Available memory 267454
+	d:\tc201\TCC -c set.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+set.c:
+
+	Available memory 208104
+	d:\tc201\TCC -c shift.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+shift.c:
+
+	Available memory 253632
+	d:\tc201\TCC -c time.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+time.c:
+
+	Available memory 225688
+	d:\tc201\TCC -c truename.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+truename.c:
+
+	Available memory 249904
+	d:\tc201\TCC -c type.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+type.c:
+
+	Available memory 222992
+	d:\tc201\TCC -c verify.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+verify.c:
+
+	Available memory 241448
+	d:\tc201\TCC -c which.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+which.c:
+
+	Available memory 264924
+	copy ..\scripts\echolib.bat .
+D:\FreeCOM\SOURCES\85a\scripts\echolib.bat => D:\FreeCOM\SOURCES\85a\cmd\echolib.bat
+     1 file copied
+	..\scripts\rmfiles cmds.rsp
+	echolib cmds.rsp alias.obj  beep.obj  break.obj  call.obj  cdd.obj  chcp.obj  chdir.obj  cls.obj  copy.obj
+	echolib cmds.rsp ctty.obj  date.obj  del.obj  dir.obj  dirs.obj  doskey.obj  echo.obj  exit.obj
+	echolib cmds.rsp exit2.obj  fddebug.obj  for.obj  goto.obj  history.obj  if.obj  lfnfor.obj  memory.obj
+	echolib cmds.rsp mkdir.obj  path.obj  pause.obj  popd.obj  prompt.obj  pushd.obj  rem.obj  ren.obj
+	echolib cmds.rsp rmdir.obj  set.obj  shift.obj  time.obj  truename.obj  type.obj  verify.obj  which.obj 
+	..\scripts\rmfiles cmds.lib
+	d:\tc201\Tlib /C cmds.lib @cmds.rsp , cmds.lst 
++alias.obj +beep.obj +break.obj +call.obj +cdd.obj +chcp.obj +chdir.obj +cls.obj +copy.obj &
++ctty.obj +date.obj +del.obj +dir.obj +dirs.obj +doskey.obj +echo.obj +exit.obj &
++exit2.obj +fddebug.obj +for.obj +goto.obj +history.obj +if.obj +lfnfor.obj +memory.obj &
++mkdir.obj +path.obj +pause.obj +popd.obj +prompt.obj +pushd.obj +rem.obj +ren.obj &
++rmdir.obj +set.obj +shift.obj +time.obj +truename.obj +type.obj +verify.obj +which.obj &
+
+Making COMMAND.COM
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 536548 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP cb_catch.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP termhook.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP xms_crit.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP xms_brk.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP xms_2e.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP cswap.asm
+	d:\tc201\TCC -c cswapc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cswapc.c:
+
+	Available memory 251430
+	d:\tc201\TCC -c batch.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+batch.c:
+
+	Available memory 203610
+	d:\tc201\TCC -c cmdtable.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cmdtable.c:
+
+	Available memory 249668
+	d:\tc201\TCC -c command.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+command.c:
+Warning command.c 934: Call to function 'stack_check_init' with no prototype in function main
+
+	Available memory 161076
+	d:\tc201\TCC -c expalias.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+expalias.c:
+
+	Available memory 244736
+	d:\tc201\TCC -c init.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+init.c:
+Warning init.c 469: Constant is long in function initialize
+
+	Available memory 180636
+	d:\tc201\TCC -c kswap.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+kswap.c:
+
+	Available memory 347844
+	d:\tc201\TCC -c loadhigh.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+loadhigh.c:
+
+	Available memory 213824
+	d:\tc201\TCC -c module.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+module.c:
+
+	Available memory 267538
+	d:\tc201\TCC -c redir.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+redir.c:
+
+	Available memory 242226
+	d:\tc201\TCC -c ver.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ver.c:
+
+	Available memory 240718
+	copy ..\scripts\echoto.bat .
+D:\FreeCOM\SOURCES\85a\scripts\echoto.bat => D:\FreeCOM\SOURCES\85a\shell\echoto.bat
+     1 file copied
+	..\scripts\rmfiles command.rsp
+	echoto command.rsp d:\tc201\LIB\c0s.obj cb_catch.obj termhook.obj+
+	echoto command.rsp xms_crit.obj xms_brk.obj xms_2e.obj cswap.obj cswapc.obj+
+	echoto command.rsp batch.obj cmdtable.obj command.obj expalias.obj init.obj kswap.obj loadhigh.obj module.obj+
+	echoto command.rsp redir.obj ver.obj
+	echoto command.rsp command.exe
+	echoto command.rsp command.map
+	echoto command.rsp ..\cmd\cmds.lib ..\lib\freecom.lib ..\strings\strings.lib ..\suppl\suppl_s.lib d:\tc201\LIB\cs.lib
+	d:\tc201\Tlink /m/s/l /c/d @command.rsp
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+Warning: _exit defined in module cswapc.c is duplicated in module EXIT
+Warning: _printf defined in module PRF is duplicated in module PRINTF
+Warning: _puts defined in module PRF is duplicated in module PUTS
+Warning: _fprintf defined in module PRF is duplicated in module FPRINTF
+Warning: _vsprintf defined in module PRF is duplicated in module SPRINTF
+Warning: _sprintf defined in module PRF is duplicated in module SPRINTF
+Warning: _vfprintf defined in module PRF is duplicated in module VFPRINTF
+Warning: _vprintf defined in module PRF is duplicated in module VPRINTF
+D:\FreeCOM\SOURCES\85a\shell\command.exe => D:\FreeCOM\SOURCES\85a\strings\xmsswap.cln
+D:\FreeCOM\SOURCES\85a\infores =>> D:\FreeCOM\SOURCES\85a\strings\xmsswap.cln
+D:\FreeCOM\SOURCES\85a\criter\criter1 =>> D:\FreeCOM\SOURCES\85a\strings\xmsswap.cln
+D:\FreeCOM\SOURCES\85a\criter\criter =>> D:\FreeCOM\SOURCES\85a\strings\xmsswap.cln
+     4 files copied
+D:\FreeCOM\SOURCES\85a\strings\xmsswap.cln => D:\FreeCOM\SOURCES\85a\command.com
+D:\FreeCOM\SOURCES\85a\strings\strings.dat =>> D:\FreeCOM\SOURCES\85a\command.com
+     2 files copied
+
+Making supplemental tools
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 537560 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tc201\TCC ptchsize.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+ptchsize.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 281978
+	d:\tc201\TCC -c load_icd.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+load_icd.c:
+
+	Available memory 273190
+	d:\tc201\TCC  load_icd.obj ..\suppl\suppl_s.lib
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+	Available memory 348864
+	d:\tools\nasm  -o icmd_1.icd icmd_1.nas
+	d:\tools\nasm  -o icmd_2.icd icmd_2.nas
+	d:\tools\nasm  -o icmd_3.icd icmd_3.nas
+	d:\tools\nasm  -f bin -o 28.com 28.asm
+	d:\tools\nasm  -f bin -o 50.com 50.asm
+
+Patching heap size to 6KB
+
+Patching 'command.com' to heap size of 6144 bytes
+Patching 'strings\xmsswap.cln' to heap size of 6144 bytes
+
+All done. COMMAND.COM is ready for use!
+

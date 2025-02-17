@@ -1,0 +1,38 @@
+-----------------------------------------------------------------
+Evironment to build FreeCOM 0.85a rev. 2021/07/11
+-----------------------------------------------------------------
+DOS: vDOS
+Compiler: Turbo C 2.01
+NASM: ver 0.98.38
+
+d:\tc201\tcc.exe
+d:\tc201\tlink.exe
+d:\tc201\tlib.exe
+d:\tc201\make.exe
+d:\tools\nasm.exe
+-----------------------------------------------------------------
+Special note for 16-bit NASM
+-----------------------------------------------------------------
+FreeCOM 0.85a rev. 2024/12/19 has issue with NASM ver. 0.98.38
+since NASM ver. 0.98.38, 0.98.39 can not recognize '-I' option 
+but NASM ver. 0.98.35, 0.98.36, 0.98.37 don't have this issue
+-----------------------------------------------------------------
+Steps to build FreeCOM in DOS as following.
+
+1. copy config.b config.bat
+   then config.bat modify as below
+    set XNASM=d:\tools\nasm
+    set COMPILER=TC2
+    set TC2_BASE=d:\tc201
+
+2. copy config.std config.mak
+
+3. modify build.bat as below
+    set COMPILER=TC2
+
+4. run build.bat
+
+-----------------------------------------------------------------
+Found issues and soulutions with Turbo C 2.01
+Please refer to TC201bug.LST
+-----------------------------------------------------------------

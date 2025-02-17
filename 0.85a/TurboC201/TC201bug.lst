@@ -1,0 +1,256 @@
+-----------------------------------------------------------------
+Found issues and soulutions with Turbo C 2.01
+-----------------------------------------------------------------
+
+[ error ] no. 6 ---> solved
+[ file ] 
+\scripts\echolib.bat
+
+[ issue ]
+	copy ..\..\scripts\echolib.bat .
+D:\FreeCOM\SOURCES\85a_0711\scripts\echolib.bat => D:\FreeCOM\SOURCES\85a_1219\suppl\src\echolib.bat
+     1 file copied
+	..\..\scripts\rmfiles objlist.txt
+	echolib objlist.txt addu.obj byte2par.obj cntry.obj dfndeli2.obj dfndelim.obj dfnexpan.obj dfnfnam.obj
+D:\FreeCOM\SOURCES\85a_0711\suppl\src\echolib.bat [13] Unknown command "&"
+
+** error 2 ** deleting objlist.txt
+
+[ root cause ]
+
+This issue caused by vDosPlus built-in 4DOS 8.00 command shell
+
+[ solution ]
+There are 2 options:
+
+1. Changed DOS shell to FreeCom version 0.83 Beta 54 [Nov 13 2022 22:21:04]
+and do not see this issue happen
+
+2. In original echolib.bat at line 12 is 'set AMP=&' therefore at line 13
+'if "%AMP%" == "" set AMP=^^^&' the result will always be TRUE,
+and it will never set AMP=^^^&
+that it why I think remove line 13 could be removed.
+
+
+[ error ] no. 9 ---> solved
+[ file ] 
+\strings\strings\strings.mak
+
+[ issue ]
+	fixstrs.exe --lib english
+FIXSTRS: loading file DEFAULT.lng
+FIXSTRS: loading file english
+FIXSTRS: building STRINGS resource
+FIXSTRS: building STRINGS library source files
+	copy strings.h ..
+D:\FreeCOM\SOURCES\85a_0711\strings\strings.h => D:\FreeCOM\SOURCES\85a_1219\strings.h
+     1 file copied
+	d:\tc201\TCC critstrs.c ..\suppl\SUPPL_s.LIB
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+critstrs.c:
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International
+
+
+	Available memory 295578
+
+	critstrs.exe english
+CRITSTRS: load file DEFAULT.err
+CRITSTRS: load file english
+CRITSTRS: Running validation check
+CRITSTRS: Dumping CRITER strings resource
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+Error strings.mak 268: Rule line too long
+
+[ root cause ]
+too many parameters for make file dependency
+
+[ solution ]
+Modify line 6
+from:
+	CFG:=../$(CFG)
+to:
+	CFG=../$(CFG)
+
+modify \strings\strings\strings.mak line 266~274
+from:
+strings.lib: ../strings.h ../strings.err $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ4) $(OBJ5) \
+$(OBJ6) $(OBJ7) $(OBJ8) $(OBJ9) $(OBJ10) $(OBJ11) $(OBJ12) $(OBJ13) $(OBJ14) $(OBJ15) \
+$(OBJ16) $(OBJ17) $(OBJ18) $(OBJ19) $(OBJ20) $(OBJ21) $(OBJ22) $(OBJ23) $(OBJ24) $(OBJ25) \
+$(OBJ26) $(OBJ27) $(OBJ28) $(OBJ29) $(OBJ30) $(OBJ31) $(OBJ32)
+	echo Making STRINGS library
+	$(RMFILES2) strings.lib
+	$(AR) strings.lib @strings.rsp $(LIBLIST) strings.lst
+	$(CP) strings.lib ..
+	$(CP) strings.lst ..
+
+to:
+strings.lib: ../strings.h ../strings.err obj_list_1 obj_list_2 
+	echo Making STRINGS library
+	$(RMFILES2) strings.lib
+	$(AR) strings.lib @strings.rsp $(LIBLIST) strings.lst
+	$(CP) strings.lib ..
+	$(CP) strings.lst ..
+
+obj_list_1: $(OBJ1) $(OBJ2) $(OBJ3) $(OBJ4) $(OBJ5) $(OBJ6) $(OBJ7) $(OBJ8) $(OBJ9) $(OBJ10) \
+$(OBJ11) $(OBJ12) $(OBJ13) $(OBJ14) $(OBJ15) $(OBJ16) $(OBJ17) $(OBJ18) $(OBJ19) $(OBJ20)
+
+obj_list_2: $(OBJ21) $(OBJ22) $(OBJ23) $(OBJ24) $(OBJ25) $(OBJ26) $(OBJ27) $(OBJ28) $(OBJ29) $(OBJ30) \
+$(OBJ31) $(OBJ32)
+
+----------------
+[ error ] no. 10 ---> solved
+[ file ] 
+\include\cswap.h
+[ issue ]
+
+	d:\tc201\TCC -c exec.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+exec.c:
+Error ../include/cswap.h 38: Misplaced elif directive
+*** 1 errors in Compile ***
+
+	Available memory 237638
+
+** error 1 ** deleting exec.obj
+
+[ root cause ]
+Turbo C 2.01 compiler encountered an #elif directive without any matching #if
+it can use #if + #elif
+but cannot use #ifdef + #elif
+
+[ solution ]
+Modify \include\cswap.h line 34
+from:	#ifdef __WATCOMC__
+to:	#if defined(__WATCOMC__)
+
+
+[ error ] no. 13 --->solved
+[ file ] 
+\include\resource.h
+
+[ issue ]
+	d:\tc201\TCC -c messages.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+messages.c:
+Error messages.c 191: Type mismatch in parameter 'fct' in call to 'enumResources' in function msgSegment
+*** 1 errors in Compile ***
+
+	Available memory 214898
+
+** error 1 ** deleting messages.obj
+
+[ root cause ]
+\lib\message.c include 
+	#include "../include/resource.h"
+	#include "../include/res.h"
+in \lib\message.c line 191 
+			enumResources(RES_ID_STRINGS, loadStrings, &status);
+paramete 'loadStrings()' function and it is defined in \lib\message.c line 104~108
+which is not consistent with enumResources prototype in \include\res.h line 14
+
+\lib\message.c line 104~108
+static int loadStrings (res_majorid_t major,
+		        res_minorid_t minor,
+		        unsigned long length,
+			int fd,
+			void *const arg)
+
+\include\resource.h line 46~47
+typedef int (*res_callbackp_t)(res_majorid_t, res_minorid_t
+ , unsigned long, int, void *);
+
+\include\res.h line 14 has prototype
+int enumResources(res_majorid_t id, res_callbackp_t fct, void * const arg);
+
+[ solution ]
+modify \include\resource.h line 46~47
+from:
+typedef int (*res_callbackp_t)(res_majorid_t, res_minorid_t
+ , unsigned long, int, void *);
+
+to:
+typedef int (*res_callbackp_t)(res_majorid_t, res_minorid_t
+ , unsigned long, int, void * const);
+
+
+[ error ] no. 15 ---> solved
+[ file ] 
+\shell\cswapc.c
+
+[ issue ]
+Making COMMAND.COM
+
+MAKE  Version 2.0   Copyright (c) 1987, 1988 Borland International
+
+Available memory 536548 bytes
+
+	..\scripts\rmfiles TURBOC.CFG
+	..\scripts\echoto TURBOC.CFG -1- -a- -f- -ff- -K -w+ -O -Z -Ld:\tc201\LIB
+	..\scripts\echoto TURBOC.CFG -Id:\tc201\INCLUDE -I..\suppl
+	..\scripts\echoto TURBOC.CFG -ms 
+	..\scripts\echoto TURBOC.CFG -UDEBUG -DNDEBUG -DXMS_SWAP
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP cb_catch.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP termhook.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP xms_crit.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP xms_brk.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP xms_2e.asm
+	d:\tools\nasm -f obj  -DMODEL=s -DCOMPILER=TC2 -DXMS_SWAP cswap.asm
+	d:\tc201\TCC -c cswapc.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+cswapc.c:
+Error cswapc.c 200: Misplaced elif directive in function XMSinit
+*** 1 errors in Compile ***
+
+	Available memory 254012
+
+** error 1 ** deleting cswapc.obj
+
+[ root cause ]
+Turbo C 2.01 compiler encountered an #elif directive without any matching #if
+it can use #if + #elif
+but cannot use #ifdef + #elif
+
+[ solution ]
+Modify \shell\cswapc.c line 199
+from:	#ifdef __WATCOMC__
+to:	#if defined(__WATCOMC__)
+
+
+[ error ] no. 16 ---> solved
+[ file ] 
+\shell\init.c
+
+[ issue ]
+	d:\tc201\TCC -c init.c
+Turbo C  Version 2.01  Copyright (c) 1987, 1988 Borland International
+init.c:
+Error init.c 286: Expression syntax in function initialize
+Error init.c 322: Expression syntax in function initialize
+Warning init.c 469: Constant is long in function initialize
+*** 2 errors in Compile ***
+
+	Available memory 185876
+
+** error 1 ** deleting init.obj
+
+[ root cause ]
+Turbo C 2.01 is very old C compiler, and it will not recognize C++ style comment '//' 
+
+But why have line 469 Warning message ? so far I have no idea. 
+	  env_resizeCtrl &= ~ENV_USEUMB;
+
+[ solution ]
+1 Modify \shell\init.c line 287 or delete this line
+from:	  //printf("Command line is %u chars long\n", cmdlen);
+to:   /* printf("Command line is %u chars long\n", cmdlen); */
+
+2. Modify \shell\init.c line 323 or delete this line
+from:     //printf("CMDLINE:[%s]\n", cmdline);
+to:   /* printf("CMDLINE:[%s]\n", cmdline); */
